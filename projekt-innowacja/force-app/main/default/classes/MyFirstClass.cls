@@ -6,5 +6,6 @@ public with sharing class MyFirstClass {
         Case case = [SELECT Id FROM CAse];
         Case case = [SELECT Id FROM CAse];
         Account acc = [SELECT ID, NAme FROM Account];
+        System.debug(acc);
     }
 }
